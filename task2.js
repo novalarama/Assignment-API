@@ -25,7 +25,7 @@ app.get("/konversi/celcius/:c",(request, response) => {
 app.get("/konversi/reamur/:r",(request, response) => {
     let r = request.params.r
 
-    let c = r*0.8
+    let c = (5*r)/4
     let f = r*2.25+32
     let k = (r/0.8)+273.15
 

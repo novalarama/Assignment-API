@@ -29,9 +29,9 @@ app.post("/newcase",(request,response)=>{
             jml += 1
 
             data2.push({
-                nis : data[i].nis,
-                nama : data[i].nama,
-                alamat : data[i].alamat
+                Nis : data[i].nis,
+                Nama : data[i].nama,
+                Alamat : data[i].alamat
             })
         }
         

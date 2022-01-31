@@ -60,7 +60,7 @@ app.get("/hitunglimas/:alas/:tinggi/:sisi",(request, response) => {
     let luas = 4*((1*alas*tinggi)/2)+(sisi*sisi)
     let volume = (1*(4*sisi)*tinggi)/3
 
-    return response.json({
+    return response.json({ //json adalah format pengiriman response
         LuasPermukaan : luas,
         Volume : volume
     })

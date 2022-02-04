@@ -20,7 +20,7 @@ app.post("/grocery",(request,response)=>{
         for (let j = 0; j < pack.length; j++) {
             if (barang[i].pack == pack[j].nama_pack) {
                 netto = barang[i].bruto - pack[j].berat
-                totalharga = netto * barang[i].harga  =
+                totalharga = netto * barang[i].harga
             }          
         }
         total.push({

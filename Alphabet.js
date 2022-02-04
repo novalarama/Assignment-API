@@ -9,6 +9,7 @@ app.use(express.json())
 
 app.post("/alphabet",(request,response)=>{
     let word = request.body.word
+    word = word.toLowerCase()
 
     let vokal = 0
     let konsonan = 0

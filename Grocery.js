@@ -42,3 +42,17 @@ app.post("/grocery",(request,response)=>{
 app.listen(8000, () => {
     console.log(`Server run on port 8000`);
 })
+
+// {
+//     "barang":[
+//         {"id":1,"nama":"Beras","bruto":100,"harga":15000,"pack":"Karung"},
+//         {"id":2,"nama":"Gula","bruto":150,"harga":11000,"pack":"Karung"},
+//         {"id":3,"nama":"Minyak","bruto":50,"harga":20000,"pack":"Plastik"},
+//         {"id":4,"nama":"Telur","bruto":200,"harga":25000,"pack":"Kayu"}
+//     ],
+//     "pack":[
+//         {"id_pack":1,"nama_pack":"Karung","berat":1},
+//         {"id_pack":2,"nama_pack":"Plastik","berat":0.5},
+//         {"id_pack":3,"nama_pack":"Kayu","berat":2}
+//     ]
+// }
